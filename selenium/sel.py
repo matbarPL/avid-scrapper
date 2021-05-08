@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
 
+#PLEASE SPECIFY CHROME PATH EXECUTABLE
 chrome_path = '/Users/mateusz/Documents/Learning/WSSMS/class_07/chromedriver'
 url = 'https://conotoxia.com/cryptocurrencies/cryptocurrency-rates'
 
