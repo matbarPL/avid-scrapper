@@ -26,5 +26,5 @@ for url in urls:
 
         row = dict(zip(names, values))
         df = df.append(row, ignore_index=True)
-df.to_csv("project_scrapping//selenium//crypto.csv", index=False)
+df.to_csv("crypto.csv", index=False)
 driver.quit()
