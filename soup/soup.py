@@ -25,4 +25,4 @@ for url in urls:
         row = dict(zip(names, values))
         print(row)
         df = df.append(row, ignore_index=True)
-df.to_csv("project_scrapping//bs//crypto.csv", index=False)
+df.to_csv("crypto.csv", index=False)
